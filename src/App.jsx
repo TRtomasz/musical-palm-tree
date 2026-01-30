@@ -73,7 +73,7 @@ function AbiInput({ value, onChange }) {
         id="abi"
         value={value}
         onChange={(event) => onChange(event.target.value)}
-        placeholder="[{ \"name\": \"transfer\", ... }]"
+        placeholder='[{ "name": "transfer", ... }]'
         rows={4}
       />
     </div>
