@@ -231,6 +231,7 @@ export default function App() {
               className="ghost"
               type="button"
               onClick={() => {
+                setNetwork(networks[0].id);
                 setContractAddress('');
                 setCalldata('');
                 setAbi('');

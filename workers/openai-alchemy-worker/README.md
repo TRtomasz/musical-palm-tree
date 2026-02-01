@@ -10,15 +10,15 @@ This worker exposes two endpoints:
 Set secrets with Wrangler (do **not** commit them):
 
 ```bash
-wrangler secret put OPENAI_API_KEY
-wrangler secret put ALCHEMY_API_KEY
+npx wrangler secret put OPENAI_API_KEY
+npx wrangler secret put ALCHEMY_API_KEY
 ```
 
 Optional vars:
 
 ```bash
-wrangler secret put OPENAI_MODEL
-wrangler secret put CORS_ORIGIN
+npx wrangler secret put OPENAI_MODEL
+npx wrangler secret put CORS_ORIGIN
 ```
 
 ## Local development
