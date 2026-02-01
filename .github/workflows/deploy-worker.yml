@@ -45,3 +45,4 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           workingDirectory: workers/openai-alchemy-worker
           command: deploy
+          wranglerVersion: "4.61.1"
